@@ -24,6 +24,12 @@
     background-color: #5d3f6e;
 }
 
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Texts */
 
 .about-me {
@@ -79,4 +85,9 @@
     aspect-ratio: 1.6 / 1.4;
     object-fit: cover;
     border-bottom: 5px solid black;
+}
+
+.github {
+    width: 60px;
+    height: 60px;
 }
