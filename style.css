@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 60px;
     background-color: #11203a;
     background-image: url(./images/topography.svg);
 }
@@ -37,15 +37,17 @@
 /* Texts */
 
 .about-me {
-    border: 5px solid black;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 600px;
+    border: 5px solid black;
     padding: 20px;
     font-size: 19px;
     background-color: whitesmoke;
 }
 
 .contact-info {
+    min-width: 250px;
+    max-width: 600px;
     background-color: whitesmoke;
     border: 5px solid black;
     padding: 20px;
@@ -58,6 +60,18 @@
     background-color: whitesmoke;
 }
 
+/* Headers */
+
+.about-me-header {
+    font-size: 60px;
+    color: white;
+    margin-top: 0;
+}
+
+.contact-me-header {
+    font-size: 60px;
+    color: white;
+}
 
 /* Grid */
 
@@ -101,4 +115,60 @@
 .github {
     width: 60px;
     height: 60px;
+}
+
+/* Media queries */
+
+
+@media (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .projects {
+        padding: 20px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
+    .work-grid {
+        grid-template-columns:auto;
+    }
+
+    .invisible {
+        display:block!important
+    }
+
+
+    .about-me > h1 {
+        display: none;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+
+    .contact-info > h1{
+        display: none;
+    }
+
+    .contacts-img {
+        display: none;
+    }
+
+}
+
+
+/* Invisible */
+
+.invisible {
+    display: none;
 }
