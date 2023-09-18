@@ -129,7 +129,7 @@
 
 /* Media queries */
 
-
+/* Optimazation for phones */
 @media (max-width: 600px) {
     .header {
         display: flex;
@@ -166,12 +166,19 @@
     }
 
 
-    .contact-info > h1{
+    .contact-info > How to reach me , just mesage me on Github 
+    .contacts-img {
         display: none;
     }
 
-    .contacts-img {
-        display: none;
+}
+
+/* Optimaztation for wide-screens */
+@media (min-width:2000px) {
+
+    body {
+        -moz-transform: scale(1.4); /* for Firefox, default 1*/
+        zoom:160%; /* For Chrome, IE, default 100%*/
     }
 
 }
