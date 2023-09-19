@@ -166,7 +166,10 @@
     }
 
 
-    .contact-info > How to reach me , just mesage me on Github 
+    .contact-info > h1 {
+        display: none;
+    }
+    
     .contacts-img {
         display: none;
     }
