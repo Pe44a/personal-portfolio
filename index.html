@@ -2,128 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Minimalist Portfolio</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="section">
+        <h1>DEV NAME</h1>
+        <p>Web Developer</p>
+    </header>
 
-    <div class="header">
-            <img class="about-img" src="./images/about.jpg" alt="">
-            <h1 class="about-me-header invisible">About me</h1>
-        <div class="about-me">
-            <h1>About me</h1>
+    <main>
+        <section class="section about">
+            <h2>ABOUT</h2>
+            <p>Crafting clean, efficient web solutions with a minimalist approach.</p>
+        </section>
 
-            <p>Hello, I'm Pēteris an enthusiastic and aspiring web developer currently on an exciting journey of self-discovery and skill acquisition. I'm passionate about the ever-evolving world of web development and eager to leave my mark in this dynamic field.</p>
-        </div>
-    </div>
-    <div class="projects">
-        <h1>My work</h1>
-        <div class="work-grid">
-                
-            <div class="grid">
-                   <a href="https://github.com/Pe44a/battleship-game"><img class="card-img" src="./images/project-pictures/battleship-game.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Battleship game</h2>  
-                    <a href="https://github.com/Pe44a/battleship-game"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description"> This is a simple implementation of the classic Battleship game. The game is designed to be played by one player and bot, and it includes features like placing ships randomly, attacking opponent's ships, and determining the winner.</p>
-                </div>
+        <section class="section projects">
+            <h2>PROJECTS</h2>
+            <div class="project">
+                <h3>Blog API Project</h3>
+                <p>This project is a full-stack blog application with a React frontend and an Express backend. It allows users to view blog posts, add comments, and provides an admin interface for managing posts.
+                </p>
+                <a target="_blank" href="https://github.com/Pe44a/blog-API-implementation">View</a>
             </div>
-
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/todo-list"><img class="card-img" src="./images/project-pictures/to-do-app.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>To-do app</h2>
-                    <a href="https://github.com/Pe44a/todo-list"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description">This is a simple to-do list application with these features: -Add tasks to the list -Edit tasks -Delete tasks -View tasks</p>
-                </div>
+            <div class="project">
+                <h3>Members only</h3>
+                <p>Members Only is a web application built with Express.js and pug view engine that allows users to sign up, sign in, log out, create posts and view posts.                </p>
+                <a target="_blank" href="https://github.com/Pe44a/members-only">View</a>
             </div>
-
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/tic-tac-toe"><img class="card-img" src="./images/project-pictures/tic-tac-toe.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Tic tac toe </h2>
-                    <a href="https://github.com/Pe44a/tic-tac-toe"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description">Project goal was to use as little as possible global values. Also to test how to use modular functions and factory functions.</p>
-                </div>
+            <div class="project">
+                <h3>Inventory Application(grocery-store)</h3>
+                <p>Express grocery store web application that manages a catalog of product categories and inventory. This project is built using Node.js, Express, MongoDB and PUG as view output. Based on MVC.</p>
+                <a target="_blank" href="https://github.com/Pe44a/inventory-application-grocery-store-">View</a>
             </div>
-
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/weather-app"><img class="card-img" src="./images/project-pictures/weather.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Weather app</h2>
-                    <a href="https://github.com/Pe44a/weather-app"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description"> Basic weather app. Main purpose was to test my knowledge about APIs and asynchronous code(promises)</p>
-                </div>
+            <div class="project">
+                <h3>Shopping Cart</h3>
+                <p>Shopping website that allows users to view items, add those items in a cart, see the total price, and proceed to checkout.</p>
+                <a target="_blank" href="https://github.com/Pe44a/shopping-cart">View</a>
             </div>
-
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/admin-dashboard"><img class="card-img" src="./images/project-pictures/admin-dashboard.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Admin dashboard</h2>
-                    <a href="https://github.com/Pe44a/admin-dashboard"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description">Made simple webpage layout out of CSS and HTML.The main idea of this project is to test my css grid abilities.</p>
-                </div>
+            <div class="project">
+                <h3>CV application</h3>
+                <p>Web application for creating and generating cv's in PDF format.</p>
+                <a target="_blank" href="https://github.com/Pe44a/cv-application">View</a>
             </div>
-
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/binary-search-trees"><img class="card-img" src="./images/project-pictures/binary-search-tree.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Binary search tree</h2>
-                    <a href="https://github.com/Pe44a/binary-search-trees"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description">Balanced BST(binary search tree) with various features: -insert -delete -find -levelOrder -preorder -inorder -postorder -height -depth -isBalanced -rebalance</p>
-                </div>
+            <div class="project">
+                <h3>Memory Game</h3>
+                <p>This is a simple memory game built using React.</p>
+                <a target="_blank" href="https://github.com/Pe44a/memory-game">View</a>
             </div>
-
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/knights-travails"><img class="card-img" src="./images/project-pictures/knight-travails.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Knight travails</h2>
-                    <a href="https://github.com/Pe44a/knights-travails"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description">This is a solution for the Knight's Travail Problem, which consists of finding a sequence of moves for a knight on a chessboard such that the knight visits every square exactly once.</p>
-                </div>
+            <div class="project">
+                <h3>Battleship Game</h3>
+                <p>Classic Battleship game using HTML, CSS, and JavaScript. The game is designed to be played by one player and bot.</p>
+                <a target="_blank" href="https://github.com/Pe44a/battleship-game">View</a>
             </div>
+        </section>
 
-            <div class="grid">
-                    <a href="https://github.com/Pe44a/linked-lists"><img class="card-img" src="./images/project-pictures/linked-list.png" alt=""> </a>
-                <div class="project-info">
-                <div class="header-link">
-                    <h2>Linked list</h2>
-                    <a href="https://github.com/Pe44a/linked-lists"><img class="github" src="./images/github-mark.svg" alt="link to project"></a>
-                </div>
-                    <p class="project-description">Simple linked list which includes these functions: -append(value) -prepend(value) -size -head -tail -at(index) -pop -contains(value) -find(value) -toString</p>
-                </div>
+        <section class="section skills">
+            <h2>SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">Git</div>
+                <div class="skill">Responsive Design</div>
+                <div class="skill">RESTful APIs</div>
             </div>
+        </section>
 
-        </div>
-    </div>
-    <div class="contacts">
-        <h1 class="contact-me-header invisible">Contact me</h1>
-        <div class="contact-info">
-            <h1>Contact me</h1>
-            <p>I'm always eager to connect with fellow developers, potential collaborators, or anyone who shares an interest in web development. Whether you have questions, offers, project ideas, or just want to say hello, feel free to reach out to me through these channels:</p>
-            <a href="https://www.linkedin.com/in/p%C4%93teris-blankfelds-860634281/"><img class="linkedin-contact" src="./images/linkedin.svg" alt="linkedin button"></a>
-            <a href="https://github.com/Pe44a"><img class="github-contact" src="./images/github-mark.svg" alt="github button"></a>
-            <p>If you have trouble to open link, search up Pe44a on github and Peteris Blankfelds on linkedin.</p>
-        </div>
-            <img class="contacts-img" src="./images/contacts.jpg" alt="">
-    </div>
-    
+        <section class="section contact">
+            <h2>CONTACT</h2>
+            <a target="_blank" href="https://www.linkedin.com/in/p%C4%93teris-blankfelds-860634281/">LinkedIn</a>
+            <a target="_blank" href="https://x.com/Peteris__">X/Twitter</a>
+        </section>
+    </main>
 </body>
 </html>
